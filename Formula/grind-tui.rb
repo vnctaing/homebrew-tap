@@ -7,17 +7,17 @@ class GrindTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/vnctaing/grind-tui/releases/download/v0.1.0/grind-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "5722dc89eb4c24b02666ed10822555e22cd912d4d3f7bf824153bf64d993c51c"
+      sha256 "b197fd0f0e4d10045de12daac4d177645771e06cfc37bf6200050f727ddd1950"
     end
     on_intel do
       url "https://github.com/vnctaing/grind-tui/releases/download/v0.1.0/grind-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "a4c6ed92ce69c2212a555297f9bad982d69e5520fceabf28d5845d56d8c1031b"
+      sha256 "83b1b4cf2fbc8eb107a91e6fde57cad20ac5ffafcf576f017321f88e2a676b1b"
     end
   end
 
   on_linux do
     url "https://github.com/vnctaing/grind-tui/releases/download/v0.1.0/grind-tui-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "08f1c40de657ed0e1f515f053dbb27f6bdf1ff574e7a43333702620f8f468443"
+    sha256 "aad696b1fc8a81da5212fa72a03e34b1cd2b19a35f82cf0ea34d0b9e241b9a82"
   end
 
   def install
